@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.title{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 75px;
+}
+.nav{
+    background: linear-gradient(90.09deg, #3800AF -0.35%, #C27500 99.65%);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+}
+.container-1{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .container-1 ul li{
+    display: inline-block; 
+}
+.nav .container-1 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 10px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: color 250ms;
+}
+.nav ul li a:hover{
+    color: #00a2d4;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 19%;
+    position: relative;
+    margin-bottom: 75px;
+}
+.main__link{
+    transition: 250ms;
+    border-radius: 10px;
+}
+.main__link:hover{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.card img{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+.card__title{
+    font-size: 18px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.price{
+    display: flex;
+    align-items: center;
+    
+}
+.price h4{
+    color: #000;
+    font-size: 18px;
+    margin-top: -6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.price del{
+    color: red;
+    font-size: 18px;
+    margin-top: -40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0 10px;
+    
+}
+.sale{
+    background: rgb(238, 0, 0);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+    height: 25px;
+}
+.card__info{
+    color: #000;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 200px;
+    margin-bottom: 25px;
+}
+.btn{
+    border: 1px solid #000;
+    color: #000;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    padding: 8px 45px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.chegirma{
+    position: absolute;
+    height: 20px;
+    width: 60px;
+    background: rgb(224, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    left: 0;
+    top: 0;
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card__info-5{
+    color: #000;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 200px;
+    margin-bottom: 45px;
+}
+footer{
+    background: linear-gradient(90.09deg, #3800AF -0.35%, #C27500 99.65%);
+    padding: 36px 58px;
+    display: flex;
+    }
+    form{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    }
+    .input1{
+    height: 34px ;
+    border-radius: 6px;
+    color:  #9B9B9B;
+    font-size: 18px;
+    line-height: 18px;
+    outline: none;
+    border: 0;
+    margin-bottom: 10px;
+    }
+    textarea{
+    height: 86px;
+    border-radius: 6px;
+    color: #9B9B9B;
+    font-size: 18px;
+    line-height: 18px;
+    outline: none;
+    border: 0px;
+    padding: 8px;
+    resize: none;
+    margin-bottom: 11px;
+    }
+    .input2{
+    height: 25px;
+    border-radius: 6px;
+    background:  rgb(223, 0, 0);
+    color: #FFFFFF;
+    line-height: 18px;
+    outline: none;
+    border: none;
+    }
+    .menu{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 238px;
+    }
+    .menu ul{
+    list-style: none;
+    }
+    .menu ul a{
+    text-decoration: none;
+    color: #FFFFFF;
+    line-height: 19px;  
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    transition: color 500ms;
+    }
+    .menu ul a:hover{
+    color:  #00a2d4;
+    }
+    .to-top{
+        width: 40px;
+        height: 40px;
+        background: #000;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        color: #fff;
+        font-size: 30px;
+        bottom: 20px;
+        right: 20px;
+        position: fixed;
+        transition: 250ms;
+    }
+    .to-top:hover{
+    width: 50px;
+    height: 50px;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    
